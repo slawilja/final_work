@@ -338,9 +338,9 @@ def add_data():
             logging.warning(f"File \'{file.split('/')[-1]}\' doesn't exists.")
 
 
-# path = os.path.expanduser('~/airflow_hw')
 path_info, conn_info = parse_ini()
 path = path_info
+
 # Добавление пути к коду проекта в переменную окружения, чтобы он был доступен python-процессу
 os.environ['PROJECT_PATH'] = path
 # Добавление пути к коду проекта в $PATH, чтобы импортировать функции
