@@ -5,16 +5,13 @@ import glob
 import json
 import pandas as pd
 
-from configparser import ConfigParser
-from typing import Dict
-from datetime import datetime
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer
 from sqlalchemy import create_engine
 
 from modules.DDL import parse_ini, create_connection, execute_query
 from modules.preparation import (
-    prep_sessions, prep_hits, filter_data_hits, filter_data_sessions, corr_types_hits,
+    filter_data_hits, filter_data_sessions, corr_types_hits,
     corr_types_sessions, fill_cat_col_hits, fill_cat_col_sessions
 )
 
