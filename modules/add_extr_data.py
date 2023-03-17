@@ -43,7 +43,7 @@ def del_na_hits(
         df: pd.DataFrame
 ) -> pd.DataFrame:
     """
-    Функция удаляющие пропуски в числовых колонках в hits
+    Функция удаления пропусков в числовых колонках в hits
     """
 
     col = [
@@ -60,7 +60,7 @@ def del_na_sessions(
         df: pd.DataFrame
 ) -> pd.DataFrame:
     """
-    Функция удаляющие пропуски в числовых колонках в sessions
+    Функция удаления пропусков в числовых колонках в sessions
     """
 
     col = [
