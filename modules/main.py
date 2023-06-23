@@ -6,7 +6,7 @@ from add_extr_data import pipeline
 def main():
     data_prep()
     ddl()
-    # pipeline()
+    pipeline()
 
 
 if __name__ == "__main__":
