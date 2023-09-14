@@ -62,7 +62,7 @@ def preprocessing() -> None:
             file_name: str
     ) -> None:
         """
-        Фуекция сохранения датафрейма в
+        Функция сохранения датафрейма в
         :param df:
         :param file_name:
         :return:
